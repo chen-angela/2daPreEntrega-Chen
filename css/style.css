@@ -275,8 +275,6 @@ footer h4 {
 
 }
 
-
-
 .barberia{
     text-align: justify;
         padding: 20px;
@@ -355,44 +353,35 @@ footer h4 {
 }
 
 /*-----------------------------------------------------------------lista de productos----------------------------------------------------------*/
-/*.contenedor {
-    grid-template-columns: repeat(3, 1fr); 
-    grid-template-rows: 40% 40% 15%;
-}*/
 @media screen and (min-width: 1024px) {
-    h2{
-        color: black;
-        font-size: 2em;
-        margin-bottom: 20px;
-        margin-top: 20px;
-        font-family:'Times New Roman', Times, serif;
+    .quienesSomos{
         text-align: center;
     }
-    
-    .exclusive {
-        display: flex;
-        flex-wrap: wrap; /* Permite que los elementos se envuelvan cuando no hay espacio suficiente */
+    .container2 {
+        display: grid;
+        grid-template-rows: repeat(2, 60%);
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 100%;
     }
-    
-    /* Estilos adicionales según sea necesario */
-    .exclusive .flex-container {
-        justify-content: space-around; /* Ajusta según tus necesidades */
-        align-items: flex-start; /* Ajusta según tus necesidades */
-    }
-    
-    /* Estilos para cada sección (puedes ajustar según sea necesario) */
-    .exclusive .seccionPP,
-    .exclusive .seccionPM,
-    .exclusive .seccionPC{
-        width: 30%; /* Ajusta según tus necesidades */
-        margin: 10px; /* Ajusta según tus necesidades */
+    .container2 .seccionBP{
+        grid-row: span 1;
+        
         
     }
-    
+    .container2 .seccionSB{
+        grid-row: span 1;
+        
+    }
+    .container2 .seccionPP, .container2 .seccionPM{
+        grid-row: span 1 ;
+    }
+    .container2 .turno{
+        grid-row: span 1;
+    }
 }
 
 .barberiayPeluqueria {
-    background-color: #b4b3b3; /* Color de fondo negro */
+    background-color: #b4b3b3; /* Color de fondo gris */
     padding: 10px; /* Espaciado interno */
     margin-right: 10px;
     /*text-align: left;*/
@@ -418,12 +407,12 @@ footer h4 {
     font-family:'Times New Roman', Times, serif;
 }
 
-.salondeBelleza {
-    background-color: #b4b3b3; /* Color de fondo negro */
+/*.salondeBelleza {
+    background-color: #b4b3b3; /* Color de fondo negro 
     margin-top: 10px;
-    padding: 10px; /* Espaciado interno */
+    padding: 10px; /* Espaciado interno 
     margin-right: 10px;
-    /*text-align: left;*/
+    /*text-align: left;
 
 }
 
@@ -445,7 +434,7 @@ footer h4 {
     margin-bottom: 20px;
     margin-top: 20px;
     font-family:'Times New Roman', Times, serif;
-}
+}*/
 
 .productoDePelo {
     background-color: #ffffff; /* Color de fondo negro */
@@ -474,11 +463,11 @@ footer h4 {
     font-family:'Times New Roman', Times, serif;
 }
 
-.productoDeMano {
-    background-color: #ffffff; /* Color de fondo negro */
+/*.productoDeMano {
+    background-color: #ffffff; /* Color de fondo negro 
     margin-top: 10px;
-    padding: 10px; /* Espaciado interno */
-    /*text-align: center;*/
+    padding: 10px; /* Espaciado interno 
+    /*text-align: center;
 
 }
 .productoDeMano h3 {
@@ -502,10 +491,10 @@ footer h4 {
 }
 
 .productoDeCara {
-    background-color: #ffffff; /* Color de fondo negro */
+    background-color: #ffffff; /* Color de fondo negro 
     margin-top: 10px;
-    padding: 10px; /* Espaciado interno */
-    /*text-align: center;*/
+    padding: 10px; /* Espaciado interno 
+    /*text-align: center;
 
 }
 .productoDeCara h3 {
@@ -526,7 +515,7 @@ footer h4 {
     margin-bottom: 20px;
     margin-top: 20px;
     font-family:'Times New Roman', Times, serif;
-}
+}*/
 
 .turno {
     background-color: #b4b3b3;
