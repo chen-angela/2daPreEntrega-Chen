@@ -181,11 +181,12 @@ footer section {
 }
 
 /* Estilos para los títulos (h4) dentro del pie de página */
-footer h4 {
+footer h3 {
     color: #ffffff; /* Color del texto */
     text-align: left; 
     margin-left: 50px;
     white-space: nowrap;
+    font-size: 14px;
 }
 @media only screen and (max-width: 600px) {
     footer {
@@ -197,8 +198,8 @@ footer h4 {
     footer a{
         font-size: 1em;
     }
-    footer h4 {
-        font-size: 8px; /* Ajusta según sea necesario */
+    footer h3 {
+        font-size: 7px; /* Ajusta según sea necesario */
         
     }
 }
@@ -364,7 +365,7 @@ footer h4 {
         grid-template-columns: 1fr 1fr 1fr;
         width: 100%;
     }
-    .container2 .seccionBP{
+    /*.container2 .seccionBP{
         grid-row: span 1;
         
         
@@ -378,7 +379,7 @@ footer h4 {
     }
     .container2 .turno{
         grid-row: span 1;
-    }
+    }*/
 }
 
 .barberiayPeluqueria {
