@@ -218,45 +218,46 @@ footer {
         background-color: #f8f8f8;
         border-radius: 10px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
     
-    .content {
-        text-align: center;
-    }
-
-    .quienesSomos h2 {
-        color: black;
-        font-size: 2em;
-        margin-bottom: 20px;
-        margin-top: 20px;
-        font-family:'Times New Roman', Times, serif;
-    }
     
-    .flex-container {
-        display: flex;
-        flex-direction: row; /* Elementos en fila */
-        justify-content: center; /* Centra los elementos horizontalmente */
-        align-items: center; /* Centra los elementos verticalmente */
-    }
-.image-container {
-        margin-right: 20px; /* Espacio entre la imagen y el párrafo */
-    }
+        .content {
+            text-align: center;
+        }
 
-    .quienesSomos img {
-        max-width: 100%;
-        border-radius: 8px;
-        overflow: hidden; /* Asegura que la imagen no sobresalga del contenedor */
-    }
-    .text-container {
-        max-width: 50%; /* Limita el ancho del contenedor de texto */
-    }
-    .quienesSomos p {
-        color: black;
-        line-height: 2;
-        font-size: 1.5em;
-        margin-top: 0px;
-        text-align: justify;
-        font-family:'Times New Roman', Times, serif;
+        h2 {
+            color: black;
+            font-size: 2em;
+            margin-bottom: 20px;
+            margin-top: 20px;
+            font-family:'Times New Roman', Times, serif;
+        }
+        
+        .flex-container {
+            display: flex;
+            flex-direction: row; /* Elementos en fila */
+            justify-content: center; /* Centra los elementos horizontalmente */
+            align-items: center; /* Centra los elementos verticalmente */
+        }
+        .image-container {
+            margin-right: 20px; /* Espacio entre la imagen y el párrafo */
+        }
+
+        img {
+            max-width: 100%;
+            border-radius: 8px;
+            overflow: hidden; /* Asegura que la imagen no sobresalga del contenedor */
+        }
+        .text-container {
+            max-width: 50%; /* Limita el ancho del contenedor de texto */
+        }
+        p {
+            color: black;
+            line-height: 2;
+            font-size: 1.5em;
+            margin-top: 0px;
+            text-align: justify;
+            font-family:'Times New Roman', Times, serif;
+        }
     }
 
 /*-------------------------------------servicios----------------------------*/
@@ -286,34 +287,33 @@ footer {
         border-radius: 5px;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 
-}
-
-.barberia h3 {
-    color: black;
-    font-size: 2em;
-    margin-bottom: 10px;
-    font-family:'Times New Roman', Times, serif;
-    text-align: left;
-    }
-
-    .barberia img {
-        width: 50%; /* Use a fixed width, ensuring the image takes the full width of its container */
-        max-width: 100%; /* Ensure the image does not exceed its natural width */
-        border-radius: 5px;
-    }
-.barberia .image-container {
-        float: left; /* Establece la imagen en el lado derecho */
-        margin-right: 20px; /* Ajusta el margen izquierdo según sea necesario */
-        width: 60%; /* Adjust the width based on your layout */
-    }
-.barberia p {
+        h3 {
         color: black;
-        line-height: 1;
-        font-size: 1.5em;
-        margin-top: 0px;
-        text-align: justify;
+        font-size: 2em;
+        margin-bottom: 10px;
         font-family:'Times New Roman', Times, serif;
-    }
+        text-align: left;
+        }
+
+        img {
+            width: 50%; /* Use a fixed width, ensuring the image takes the full width of its container */
+            max-width: 100%; /* Ensure the image does not exceed its natural width */
+            border-radius: 5px;
+        }
+    .image-container {
+            float: left; /* Establece la imagen en el lado derecho */
+            margin-right: 20px; /* Ajusta el margen izquierdo según sea necesario */
+            width: 60%; /* Adjust the width based on your layout */
+        }
+    p {
+            color: black;
+            line-height: 1;
+            font-size: 1.5em;
+            margin-top: 0px;
+            text-align: justify;
+            font-family:'Times New Roman', Times, serif;
+        }
+}
 
 /* Manicuria Styles */
 .manicuria {
@@ -322,38 +322,37 @@ footer {
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-}
 
-.manicuria h3 {
-    color: white;
-    font-size: 2em;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: right;
-    
-}
+    h3 {
+        color: white;
+        font-size: 2em;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: right;
+        
+    }
 
-.manicuria img {
-    width: 50%;
-    max-width: 100%;
-    border-radius: 5px;
+    img {
+        width: 50%;
+        max-width: 100%;
+        border-radius: 5px;
 
-}
+    }
 
-.manicuria .image-container {
-    float: right;
-    margin-left: 20px;
+    .image-container {
+        float: right;
+        margin-left: 20px;
 
 
-}
+    }
 
-.manicuria p {
-    color: white;
-    line-height: 1;
-    font-size: 1.5em;
-    margin-top: 0px;
-    text-align: justify;
-    font-family: 'Times New Roman', Times, serif;
-
+    p {
+        color: white;
+        line-height: 1;
+        font-size: 1.5em;
+        margin-top: 0px;
+        text-align: justify;
+        font-family: 'Times New Roman', Times, serif;
+    }
 }
 
 /*-----------------------------------------------------------------lista de productos----------------------------------------------------------*/
@@ -366,21 +365,22 @@ footer {
         grid-template-rows: repeat(2, 60%);
         grid-template-columns: 1fr 1fr 1fr;
         width: 100%;
-    }
-    .container2 .seccionBP{
-        grid-row: span 1;
-        
-        
-    }
-    .container2 .seccionSB{
-        grid-row: span 1;
-        
-    }
-    .container2 .seccionPP, .container2 .seccionPM{
-        grid-row: span 1 ;
-    }
-    .container2 .turno{
-        grid-row: span 1;
+    
+        .seccionBP{
+            grid-row: span 1;
+            
+            
+        }
+        .seccionSB{
+            grid-row: span 1;
+            
+        }
+        .seccionPP, .container2 .seccionPM{
+            grid-row: span 1 ;
+        }
+        .turno{
+            grid-row: span 1;
+        }
     }
 }
 
@@ -389,149 +389,66 @@ footer {
     padding: 10px; /* Espaciado interno */
     margin-right: 10px;
     /*text-align: left;*/
+
+    h3 {
+        font-size: 1.5em;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        font-family:'Times New Roman', Times, serif;
+    }
+
+    h4 {
+        font-size: 1em;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        font-family:'Times New Roman', Times, serif;
+    }
+
+    h5 {
+        margin-bottom: 20px;
+        margin-top: 20px;
+        font-family:'Times New Roman', Times, serif;
+    }
 }
-
-.barberiayPeluqueria h3 {
-    font-size: 1.5em;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    font-family:'Times New Roman', Times, serif;
-}
-
-.barberiayPeluqueria h4 {
-    font-size: 1em;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    font-family:'Times New Roman', Times, serif;
-}
-
-.barberiayPeluqueria h5 {
-    margin-bottom: 20px;
-    margin-top: 20px;
-    font-family:'Times New Roman', Times, serif;
-}
-
-/*.salondeBelleza {
-    background-color: #b4b3b3; /* Color de fondo negro 
-    margin-top: 10px;
-    padding: 10px; /* Espaciado interno 
-    margin-right: 10px;
-    /*text-align: left;
-
-}
-
-.salondeBelleza h3 {
-    font-size: 1.5em;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    font-family:'Times New Roman', Times, serif;
-}
-
-.salondeBelleza h4 {
-    font-size: 1em;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    font-family:'Times New Roman', Times, serif;
-}
-
-.salondeBelleza h5 {
-    margin-bottom: 20px;
-    margin-top: 20px;
-    font-family:'Times New Roman', Times, serif;
-}*/
 
 .productoDePelo {
     background-color: #ffffff; /* Color de fondo negro */
     margin-top: 10px;
     padding: 10px; /* Espaciado interno */
     /*text-align: center;*/
-}
 
-.productoDePelo h3 {
-    font-size: 1.5em;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    font-family:'Times New Roman', Times, serif;
-}
+    h3 {
+        font-size: 1.5em;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        font-family:'Times New Roman', Times, serif;
+    }
 
-.productoDePelo h4 {
-    font-size: 1em;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    font-family:'Times New Roman', Times, serif;
-}
+    h4 {
+        font-size: 1em;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        font-family:'Times New Roman', Times, serif;
+    }
 
-.productoDePelo h5 {
-    margin-bottom: 20px;
-    margin-top: 20px;
-    font-family:'Times New Roman', Times, serif;
+    h5 {
+        margin-bottom: 20px;
+        margin-top: 20px;
+        font-family:'Times New Roman', Times, serif;
+    }
 }
-
-/*.productoDeMano {
-    background-color: #ffffff; /* Color de fondo negro 
-    margin-top: 10px;
-    padding: 10px; /* Espaciado interno 
-    /*text-align: center;
-
-}
-.productoDeMano h3 {
-    font-size: 1.5em;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    font-family:'Times New Roman', Times, serif;
-}
-
-.productoDeMano h4 {
-    font-size: 1em;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    font-family:'Times New Roman', Times, serif;
-}
-
-.productoDeMano h5 {
-    margin-bottom: 20px;
-    margin-top: 20px;
-    font-family:'Times New Roman', Times, serif;
-}
-
-.productoDeCara {
-    background-color: #ffffff; /* Color de fondo negro 
-    margin-top: 10px;
-    padding: 10px; /* Espaciado interno 
-    /*text-align: center;
-
-}
-.productoDeCara h3 {
-    font-size: 1.5em;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    font-family:'Times New Roman', Times, serif;
-}
-
-.productoDeCara h4 {
-    font-size: 1em;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    font-family:'Times New Roman', Times, serif;
-}
-
-.productoDeCara h5 {
-    margin-bottom: 20px;
-    margin-top: 20px;
-    font-family:'Times New Roman', Times, serif;
-}*/
 
 .turno {
     background-color: #b4b3b3;
     margin-top: 10px;
     padding: 10px; /* Espaciado interno */
     /*text-align: center;*/
-}
 
-.turno label {
-    font-size: 1.1em;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    font-family:'Times New Roman', Times, serif;
-    color: black;
+    label {
+        font-size: 1.1em;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        font-family:'Times New Roman', Times, serif;
+        color: black;
+    }
 }
