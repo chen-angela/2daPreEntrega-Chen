@@ -1,3 +1,4 @@
+
 /*# sourceMappingURL=style.css.map */
 /* Estilos para el encabezado */
 header{
@@ -194,12 +195,46 @@ footer h3 {
         max-width: 100%;
         padding: 10px; /* Ajusta según sea necesario */
         box-sizing: border-box;
+        overflow: hidden;
     }
     footer a{
         font-size: 1em;
     }
     footer h3 {
-        font-size: 7px; /* Ajusta según sea necesario */
+        font-size: 8px; /* Ajusta según sea necesario */
+        
+    }
+}
+@media only screen and (min-width: 600px) {
+    footer {
+        width: 100%;
+        max-width: 100%;
+        padding: 10px; /* Ajusta según sea necesario */
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+    
+    footer a{
+        font-size: 1em;
+    }
+    footer h3 {
+        font-size: 12px; /* Ajusta según sea necesario */
+        
+    }
+}
+@media only screen and (min-width: 1024px) {
+    footer {
+        width: 100%;
+        max-width: 100%;
+        padding: 10px; /* Ajusta según sea necesario */
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+    footer a{
+        font-size: 1em;
+    }
+    footer h3 {
+        font-size: 18px; /* Ajusta según sea necesario */
         
     }
 }

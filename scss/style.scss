@@ -1,25 +1,26 @@
 header{
     background-color: #000;
-
-    img {
-        margin: 0 auto; /* Ajusta el margen superior e inferior y centra horizontalmente */
-        background-color: #000; /* Establece el color de fondo negro */
-        background-position: center center;
-        display: block; /* Cambia la visualización a bloque para centrar automáticamente */
-        width: auto; /* Ajusta el ancho de la imagen al 100% del contenedor */
-        height: auto; /* Permite que la altura se ajuste automáticamente para mantener la proporción */
+    nav{
+        h1{
+            display: none;
+        }
+        img {
+            margin: 0 auto; /* Ajusta el margen superior e inferior y centra horizontalmente */
+            background-color: #000; /* Establece el color de fondo negro */
+            background-position: center center;
+            display: block; /* Cambia la visualización a bloque para centrar automáticamente */
+            width: auto; /* Ajusta el ancho de la imagen al 100% del contenedor */
+            height: auto; /* Permite que la altura se ajuste automáticamente para mantener la proporción */
+        }
+        /* Reset de estilos para evitar estilos predeterminados del navegador */
+        h2, h4, p, a {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            font-family:'Times New Roman', Times, serif; /* Estilos generales para el cuerpo de la página */
+            line-height: 1.6;
+        }
     }
-
-
-    /* Reset de estilos para evitar estilos predeterminados del navegador */
-    h2, h4, p, a {
-        margin: 0;
-        padding: 0;
-        text-decoration: none;
-        font-family:'Times New Roman', Times, serif; /* Estilos generales para el cuerpo de la página */
-        line-height: 1.6;
-    }
-
     /* Estilos para la sección de menú */
     .menu {
         background-color: #000; /* Color de fondo negro */
@@ -43,6 +44,7 @@ header{
         
         }
     }
+
 
     /* Estilos para la sección "Quienes Somos" */
     .quienesSomos {
