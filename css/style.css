@@ -1,5 +1,4 @@
 
-/*# sourceMappingURL=style.css.map */
 /* Estilos para el encabezado */
 header{
     background-color: #000;
@@ -400,21 +399,7 @@ footer h3 {
         grid-template-columns: 1fr 1fr 1fr;
         width: 100%;
     }
-    /*.container2 .seccionBP{
-        grid-row: span 1;
-        
-        
-    }
-    .container2 .seccionSB{
-        grid-row: span 1;
-        
-    }
-    .container2 .seccionPP, .container2 .seccionPM{
-        grid-row: span 1 ;
-    }
-    .container2 .turno{
-        grid-row: span 1;
-    }*/
+    
 }
 
 .barberiayPeluqueria {
